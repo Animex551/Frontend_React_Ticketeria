@@ -1,5 +1,13 @@
+import Login from "../components/Login"
+import Footer from "../components/Footer"
 function LoginPage() {
-  return <h1>Página Login</h1>
+  return(
+    <>
+    <Login/>
+    <Footer/>
+    </>
+  )
+
 }
 
 export default LoginPage

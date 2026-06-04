@@ -3,6 +3,7 @@ import logo from '../assets/logo.svg';
 
 function Menu() {
   return (
+    <>
     <nav>
       <ul>  
       <img src={logo} alt="logo cencosud" className="logo"/>
@@ -14,6 +15,7 @@ function Menu() {
         </li>
       </ul>
     </nav>
+    </>
   )
 }
 

@@ -1,5 +1,10 @@
+import Footer from "../components/Footer"
 function Home() {
-  return <h1>Página Home</h1>
+  return (
+    <>
+    <Footer/>
+    </>
+  )
 }
 
 export default Home

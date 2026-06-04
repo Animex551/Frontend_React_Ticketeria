@@ -1,5 +1,4 @@
-
-function Login() {
+function Login() { 
   return (
     <main className="login-container">
       <div className="login-box">
@@ -8,12 +7,12 @@ function Login() {
         <form>
           <div className="form-group">
             <label>Correo</label>
-            <input type="email" />
+            <input type="email"/>
           </div>
 
           <div className="form-group">
             <label>Contraseña</label>
-            <input type="password" />
+            <input type="password"/>
           </div>
 
           <button type="submit">
