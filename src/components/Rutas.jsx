@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from '../Pages/Home'
 import LoginPage from '../Pages/LoginPage'
 import Ticketeria from "../Pages/Ticketeria"
-import Contacto from '../Pages/Contacto'
+import Contacto from '../Pages/ContactoPage'
 
 function Rutas() {
   return (
