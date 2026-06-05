@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 function Home() {
   return (
     <>
-    <Footer/>
+      <Footer/>
     </>
   )
 }
