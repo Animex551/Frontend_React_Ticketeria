@@ -1,16 +1,41 @@
-# React + Vite
+Sistema de Tickets de Infraestructura
+Descripción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada en React para la gestión de tickets de infraestructura.
 
-Currently, two official plugins are available:
+Permite:
+- Iniciar sesión.
+- Visualizar tickets registrados.
+- Consultar prioridades y estados.
+- Registrar nuevos tickets.
+- Monitorear incidencias.
+Tecnologías:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- React Router DOM
+- Vite
+- SCSS
+- JavaScript
 
-## React Compiler
+Instalación:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1-abrir el cmd
 
-## Expanding the ESLint configuration
+2- Clonar el repositorio:
+en el cmd
+git clone https://github.com/Animex551/Frontend_React_Ticketeria.git
+cd Frontend_React_Ticketeria
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3- instalacion de npm en carpeta del proyecto
+npm install
+npm install -g sass
+npm install react-router-dom
+
+
+
+Ejecución:
+en el mismo cmd donde esta el pryecto
+npm run dev
+
+Abre en el navegador el url:
+http://localhost:5173
