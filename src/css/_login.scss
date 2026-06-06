@@ -1,7 +1,6 @@
-@import "./_mixins.scss";
+@import  "./_mixins.scss";
 .login-container {
   min-height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +14,7 @@
 
     border-radius: 12px;
 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: $box-shadow-general;
 
     h2 {
       text-align: center;
@@ -62,6 +61,27 @@
           background-color: $color-boton-Login;
         }
       }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .login-container {
+    .login-box {
+      width: 80%;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+
+    .login-box {
+      width: 100%;
+      padding: 20px;
     }
   }
 }

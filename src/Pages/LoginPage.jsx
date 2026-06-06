@@ -1,10 +1,10 @@
 import Login from "../components/Login"
-import Footer from "../components/Footer"
+
 function LoginPage() {
   return(
     <>
     <Login/>
-    <Footer/>
+    
     </>
   )
 

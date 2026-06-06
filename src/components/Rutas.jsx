@@ -1,17 +1,21 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Home from '../Pages/Home'
+import HomePage from '../Pages/HomePage'
 import LoginPage from '../Pages/LoginPage'
-import Ticketeria from "../Pages/Ticketeria"
-import Contacto from '../Pages/ContactoPage'
+import TicketeriaPage from "../Pages/TicketeriaPage"
+import ContactoPage from '../Pages/ContactoPage'
+import CrearTicketPage from "../Pages/CrearTicketPage"
+import TicketPage from "../Pages/TicketPage"
 
 function Rutas() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/LoginPage" element={<LoginPage />} />
-      <Route path="/Ticketeria" element={<Ticketeria />} />
-      <Route path='/Contacto' element={<Contacto />}/>
+      <Route path="/TicketeriaPage" element={<TicketeriaPage />} />
+      <Route path='/Contacto' element={<ContactoPage />}/>
+      <Route path='/CrearTicketPage' element={<CrearTicketPage />}/>
+       <Route path='/TicketPage' element={<TicketPage />}/>
 
     </Routes>
   )

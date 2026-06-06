@@ -1,7 +1,8 @@
 function Footer(){
     return(
-        <footer>
-            <section>
+        <footer className="footer-container">
+            <section >
+                
                 <div>
                     <p>&copy; 2026 Cencosud. Todos los derechos reservados.</p>
                 </div>

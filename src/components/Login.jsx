@@ -1,11 +1,12 @@
 import { useNavigate } from "react-router-dom";
 
+
 function Login() {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault(); // evita recargar la página
-    navigate("/Ticketeria");
+    navigate("/TicketeriaPage");
   };
 
   return (

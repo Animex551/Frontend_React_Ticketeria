@@ -1,28 +1,32 @@
-.contact-container{
-min-height: 100vh;
-
+.contacto {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: $color-secundario-Login;
-  
-  .contact-box{
-    width: 700px;
-    height: 550px;
-    background: white;
-    padding: 30px;
+  padding: 30px;
 
-    border-radius: 12px;
+  .contacto-box {
+    width: 100%;
+    max-width: 600px;
 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
-
-
-    h2 {
-      text-align: center;
-      margin-bottom: 25px;
-      color: $color-primario-Login;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
     }
 
+    input,
+    textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #0054a6;
+      color: white;
+      cursor: pointer;
+    }
   }
 }
